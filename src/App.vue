@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <a href="/" class="site-logo">HobbySpot</a>
-      <!-- <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link> -->
+      <a href="/HobbySpot/" class="site-logo">HobbySpot</a>
+      <span style="float: right;">
+      <router-link to="/">Movies</router-link>|
+      <router-link to="/">TV Shows</router-link>
+      </span>
     </div>
     <router-view />
     <footer>Made with ❤ on Planet Earth.</footer>
@@ -44,5 +46,8 @@ footer {
   text-decoration: none;
   font-family: sans-serif;
   text-shadow: 0 0 10px rgba(0,0,0,.95);
+}
+.site-logo:hover{
+  text-decoration: none;
 }
 </style>

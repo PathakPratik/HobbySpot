@@ -3,7 +3,7 @@
     <div id="home-img"></div>
     <div id="background"></div>
     <div class="center-content">
-      <h2 class="bold-text-style" style="margin-bottom:80px;">A hobby a day keeps the doldrums away.</h2>
+      <!-- <h2 class="bold-text-style" style="margin-bottom:80px;">A hobby a day keeps the doldrums away.</h2> -->
       <PopularCards cardsType="movies" cardsCategory="popular"></PopularCards>
       <PopularCards cardsType="movies" cardsCategory="latest"></PopularCards>
     </div>

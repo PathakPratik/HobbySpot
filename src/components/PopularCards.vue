@@ -1,6 +1,6 @@
 <template>
   <div style="margin-top:40px;">
-    <h3 class="bold-text-style card-title">{{cardsCategory}} {{cardsType}}</h3>
+    <h3 v-show="movies.length" class="bold-text-style card-title">{{cardsCategory}} {{cardsType}}</h3>
     <a
       v-for="movie in movies.slice(0,6)"
       :key="movie.id"
