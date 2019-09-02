@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/HobbySpot/"
+  publicPath: process.env.PUBLIC_PATH
 };
