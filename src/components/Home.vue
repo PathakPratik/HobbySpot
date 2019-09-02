@@ -25,7 +25,7 @@ export default {
 
 <style>
 #home-img {
-  background-image: url("/assets/movies-tiles.jpg");
+  background-image: url("../assets/movies-tiles.jpg");
   position: absolute;
   width: 100%;
   height: 99.95%;
