@@ -6,7 +6,7 @@ import Description from "./views/Description.vue";
 Vue.use(Router);
 
 export default new Router({
-  mode: "history",
+  mode: "hash",
   base: "/HobbySpot/",
   routes: [
     {
