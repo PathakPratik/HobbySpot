@@ -7,13 +7,7 @@ Vue.use(Router);
 
 export default new Router({
   mode: "history",
-  base: "HobbySpot",
   routes: [
-    {
-      path: "/",
-      name: "home",
-      component: Home
-    },
     {
       path: "/movies/:id",
       name: "desc",
@@ -23,6 +17,11 @@ export default new Router({
       path: "/about",
       name: "about",
       component: () => import("./views/About.vue")
+    },
+    {
+      path: "/",
+      name: "home",
+      component: Home
     }
   ]
 });

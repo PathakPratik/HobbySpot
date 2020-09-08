@@ -41,7 +41,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #home-img {
   /* background-image: url("/assets/movies-tiles.jpg"); */
   position: absolute;
@@ -66,7 +66,7 @@ export default {
 }
 .center-content {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 120px;
 }
 .genres {
   background-color: cadetblue;

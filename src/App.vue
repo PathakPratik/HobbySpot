@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <a href="/HobbySpot/" class="site-logo">HobbySpot</a>
-      <span style="float: right;">
-      <router-link to="/">Movies</router-link>|
-      <router-link to="/">TV Shows</router-link>
-      </span>
+      <a href="/" class="site-logo">HobbySpot</a>
+      <!-- <span style="float: right;">
+        <router-link to="/">Movies</router-link>|
+        <router-link to="/">TV Shows</router-link>
+      </span> -->
     </div>
     <router-view />
     <footer>Made with ❤ on Planet Earth.</footer>
@@ -17,12 +17,13 @@
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
   color: #2c3e50;
 }
 #nav {
   padding: 18px;
   background-color: cadetblue;
+  position: fixed;
+  width: 100%;
 }
 
 #nav a {
@@ -37,7 +38,7 @@ footer {
   background-color: cadetblue;
   padding: 2rem;
   display: block;
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 .site-logo{
   font-size: 30px;
