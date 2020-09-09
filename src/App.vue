@@ -7,7 +7,9 @@
         <router-link to="/">TV Shows</router-link>
       </span> -->
     </div>
-    <router-view />
+    <div id="router-view">
+      <router-view />
+    </div>
     <footer>Made with ❤ on Planet Earth.</footer>
   </div>
 </template>
@@ -30,7 +32,9 @@
   font-weight: bold;
   color: #2c3e50;
 }
-
+#router-view{
+  min-height: 85vh;
+}
 #nav a.router-link-exact-active {
   color: #42b983;
 }
